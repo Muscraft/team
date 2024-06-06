@@ -7,6 +7,9 @@ bots = ["renovate"]
 cargo = "write"
 wg-diagnostics = "write"
 
+[access.individuals]
+Muscraft = "maintain"
+
 [[branch-protections]]
 pattern = "master"
 required-approvals = 0
